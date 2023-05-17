@@ -1,0 +1,616 @@
+﻿@*<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">*@
+
+<style>
+    #whats-new-avatar {
+        padding: 15px;
+    }
+
+    .whats-new-form-header {
+        display: flex;
+        align-items: center;
+    }
+
+    #whats-new-toolbar {
+        padding: 12px 16px;
+        background-color: #eaeaea;
+        border-top: 1px solid #eee;
+    }
+
+    .whats-new-placeholder {
+        border: none;
+        outline: none;
+    }
+
+    #whats-new-textarea {
+        margin-left: -20px;
+        padding: 25px 0 0 0;
+    }
+
+    .activity-post-name-status {
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+
+    #whats-new {
+        padding: 0 0 0 40px;
+    }
+
+    .whats-new-form-header {
+        align-items: start
+    }
+
+    #bp-nouveau-activity-form {
+        display: none;
+    }
+
+        #bp-nouveau-activity-form.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+</style>
+
+
+<div id="content" class="site-content">
+    <div class="container">
+        <div class="bb-grid site-content-grid">
+            <!-- vietbia -->
+            <div id="primary" class="content-area bs-bp-container">
+                <main id="main" class="site-main">
+                    <article id="post-5"
+                             class="bp_activity type-bp_activity post-5 page type-page status-publish hentry">
+                        <header class="entry-header">
+                            <h1 class="entry-title">Activity Feed</h1>
+                        </header>
+                        <div class="entry-content">
+                            <div id="buddypress" class="buddypress-wrap bp-single-plain-nav bp-dir-hori-nav">
+                                <h2 class="bp-screen-reader-text">Post Update</h2>
+                                <div id="bp-nouveau-activity-form-placeholder" class="bp-nouveau-activity-form-placeholder">
+                                    <form id="whats-new-form-placeholder" class="activity-form-placeholder">
+                                        <div class="whats-new-form-header">
+                                            <div id="user-status-huddle" class="bp-activity-huddle">
+                                                <div id="whats-new-avatar">
+                                                    <div class="activity-post-avatar-container">
+                                                        <a class="activity-post-avatar"
+                                                           href="">
+                                                            <img src="https://vuainnhanh.com/wp-content/uploads/2023/02/logo-chu-thap-do.png"
+                                                                 class="avatar user-2-avatar avatar-150 photo" width="150" height="150"
+                                                                 alt="Profile photo of John">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div id="whats-new-heading" style="display:none;">
+
+                                                    <span class="activity-post-user-name-container">
+                                                        <h5>
+                                                            <a class="activity-post-user-name"
+                                                               href="">
+                                                                <span class="user-name">John</span>
+                                                            </a>
+                                                        </h5>
+                                                    </span>
+
+                                                </div>
+                                                <div id="whats-new-status" style="display:none;">
+                                                    <div id="bp-activity-privacy-point" class="public" data-bp-tooltip-pos="up"
+                                                         data-bp-tooltip="Set by album privacy">
+                                                        <span class="privacy-point-icon"></span>
+                                                        <span class="bp-activity-privacy-status">
+
+                                                            Public
+                                                        </span>
+                                                        <i class="bb-icon-f bb-icon-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="whats-new-content-placeholder">
+                                                <div id="whats-new-textarea">
+                                                    <div name="whats-new" cols="50" rows="4" placeholder="Share what's on your mind..."
+                                                         aria-label="Post what&amp;#039;s new" contenteditable="true" autocorrect="off"
+                                                         data-suggestions-group-id="false" id="whats-new"
+                                                         class="bp-suggestions medium-editor-element medium-editor-placeholder"
+                                                         style="resize: none; height: 50px;" spellcheck="true" data-medium-editor-element="true"
+                                                         role="textbox" aria-multiline="true" data-medium-editor-editor-index="1"
+                                                         medium-editor-index="96ea3742-02c2-3485-1e44-4ae79bb3214b" data-placeholder=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="whats-new-toolbar" style="padding:12px 16px">
+
+                                            <div class="post-elements-buttons-item post-media media-support">
+                                                <a href="#" id="activity-media-button" class="toolbar-button bp-tooltip"
+                                                   data-bp-tooltip-pos="up-left" data-bp-tooltip="Attach photo">
+                                                    <i class="bb-icon-l bb-icon-camera"></i>
+                                                </a>
+                                            </div>
+                                            <div class="post-elements-buttons-item post-video video-support">
+                                                <a href="#" id="activity-video-button" class="toolbar-button bp-tooltip" data-bp-tooltip-pos="up"
+                                                   data-bp-tooltip="Attach video">
+                                                    <i class="bb-icon-l bb-icon-video"></i>
+                                                </a>
+                                            </div>
+                                            <div class="post-elements-buttons-item post-media document-support">
+                                                <a href="#" id="activity-document-button" class="toolbar-button bp-tooltip" data-bp-tooltip-pos="up"
+                                                   data-bp-tooltip="Attach document">
+                                                    <i class="bb-icon-l bb-icon-attach"></i>
+                                                </a>
+                                            </div>
+
+                                            <div class="post-elements-buttons-item post-gif">
+                                                <div class="gif-media-search">
+                                                    <a href="#" id="activity-gif-button" class="toolbar-button bp-tooltip" data-bp-tooltip-pos="up"
+                                                       data-bp-tooltip="Choose a GIF"><i class="bb-icon-l bb-icon-gif"></i></a>
+                                                    <div class="gif-media-search-dropdown"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div id="bp-nouveau-activity-form" class="activity-update-form modal-popup">
+                                    <div class="activity-update-form-overlay"></div>
+                                    <partial name="_PostPatrial"/>
+                                </div>
+
+                                <div class="flex actvity-head-bar">
+                                    <nav class="activity-type-navs main-navs bp-navs dir-navs  bp-subnavs"
+                                         role="navigation" aria-label="Directory menu">
+                                        <ul class="component-navigation activity-nav">
+                                            <li id="activity-all" class="dynamic selected loading" data-bp-scope="all"
+                                                data-bp-object="activity">
+                                                <a href="">
+                                                    <div class="bb-component-nav-item-point">All Updates</div>
+                                                </a>
+                                            </li>
+                                            @*<li id="activity-favorites" class="" data-bp-scope="favorites"
+                                            data-bp-object="activity">
+                                            <a href="">
+                                            <div class="bb-component-nav-item-point">Likes</div>
+                                            </a>
+                                            </li>*@
+                                        </ul>
+                                    </nav>
+
+                                    <div class="subnav-filters filters no-ajax" id="subnav-filters">
+                                        <div class="subnav-search clearfix">
+                                            <div class="dir-search activity-search bp-search" data-bp-search="activity">
+                                                <form action="" method="get" class="bp-dir-search-form"
+                                                      id="dir-activity-search-form" autocomplete="off">
+                                                    <button type="submit" id="dir-activity-search-submit"
+                                                            class="nouveau-search-submit" name="dir_activity_search_submit">
+                                                        <span class="dashicons dashicons-search"
+                                                              aria-hidden="true"></span>
+                                                        <span id="button-text"
+                                                              class="bp-screen-reader-text">Search</span>
+                                                    </button>
+                                                    <label for="dir-activity-search"
+                                                           class="bp-screen-reader-text">
+                                                        Search
+                                                        Feed…
+                                                    </label>
+                                                    <input id="dir-activity-search" name="activity_search" type="search"
+                                                           placeholder="Search Feed…">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="screen-content">
+                                    <div id="activity-stream" class="activity" data-bp-list="activity">
+                                        <div id="bp-ajax-loader">
+                                            <ul class="activity-list item-list bp-list">
+                                                <li class="activity activity_update activity-item date-recorded-1683607555"
+                                                    id="activity-194622" data-bp-activity-id="194622"
+                                                    data-bp-timestamp="1683607555"
+                                                    data-bp-activity="{&quot;id&quot;:194622,&quot;can_edit_privacy&quot;:true,&quot;album_id&quot;:0,&quot;group_id&quot;:0,&quot;group_name&quot;:&quot;&quot;,&quot;folder_id&quot;:0,&quot;content&quot;:&quot;<p>\u00e1dasd<\/p>&quot;,&quot;item_id&quot;:0,&quot;object&quot;:&quot;activity&quot;,&quot;privacy&quot;:&quot;public&quot;,&quot;group_avatar&quot;:&quot;&quot;,&quot;link_image_index_save&quot;:&quot;&quot;,&quot;profile_video&quot;:true,&quot;group_video&quot;:true,&quot;profile_media&quot;:true,&quot;group_media&quot;:true,&quot;profile_document&quot;:true,&quot;group_document&quot;:true}">
+
+                                                    <div class="bb-activity-more-options-wrap action">
+                                                        <span class="bb-activity-more-options-action"
+                                                              data-balloon-pos="up"
+                                                              data-balloon="More Options">
+                                                            <i class="bb-icon-f bb-icon-ellipsis-h"></i>
+                                                        </span>
+                                                        <div class="bb-activity-more-options">
+                                                            <div class="generic-button">
+                                                                <a href="#"
+                                                                   class="button edit edit-activity bp-secondary-action bp-tooltip"
+                                                                   title="Edit Activity">
+                                                                    <span class="bp-screen-reader-text">
+                                                                        Edit
+                                                                        Activity
+                                                                    </span><span class="edit-label">Edit</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="generic-button">
+                                                                <a href=""
+                                                                   class="button item-button bp-secondary-action delete-activity confirm">
+                                                                    <span class="bp-screen-reader-text">Delete</span><span class="delete-label">Delete</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bp-activity-head">
+                                                        <div class="activity-avatar item-avatar">
+                                                            <a href="">
+                                                                <img src="https://vuainnhanh.com/wp-content/uploads/2023/02/logo-chu-thap-do.png"
+                                                                     class="avatar user-2-avatar avatar-300 photo"
+                                                                     width="300" height="300"
+                                                                     alt="Profile photo of Admin">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="activity-header" style="margin-top: -0.2rem;">
+                                                            <p>
+                                                                <a href="">Admin</a>
+                                                                posted an update
+                                                                <a href=""
+                                                                   class="view activity-time-since">
+                                                                    <span class="time-since">
+                                                                        32 minutes
+                                                                        ago
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                            <p class="activity-date">
+                                                                <a href="">
+                                                                    a
+                                                                    second
+                                                                    ago
+                                                                </a>
+                                                            </p>
+                                                            <div class="bb-media-privacy-wrap">
+                                                                <span class="bp-tooltip privacy-wrap"
+                                                                      data-bp-tooltip-pos="up"
+                                                                      data-bp-tooltip="Public">
+                                                                    <span class="privacy selected public"></span>
+                                                                </span>
+                                                                <ul class="activity-privacy">
+                                                                    <li data-value="public"
+                                                                        class="public selected">Public</li>
+                                                                    <li data-value="loggedin"
+                                                                        class="loggedin ">All Members</li>
+                                                                    <li data-value="friends"
+                                                                        class="friends ">My Connections</li>
+                                                                    <li data-value="onlyme" class="onlyme ">
+                                                                        Only Me
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="activity-content ">
+                                                        <div class="activity-inner ">
+                                                            <p>Hello</p>
+                                                        </div>
+                                                        <div class="activity-inner ">
+                                                            <p>Hello</p>
+                                                        </div>
+
+                                                        <div class="activity-state  ">
+                                                            <a href="javascript:void(0);"
+                                                               class="activity-state-likes">
+                                                                <span class="like-text hint--bottom hint--medium hint--multiline"
+                                                                      data-hint="">
+                                                                </span>
+                                                            </a>
+                                                            <span class="ac-state-separator">·</span>
+                                                            <a href="#" class="activity-state-comments">
+                                                                <span class="comments-count">
+                                                                    0 Comment
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="bp-generic-meta activity-meta action">
+                                                        <div class="generic-button">
+                                                            <a href=""
+                                                               class="button fav bp-secondary-action"
+                                                               aria-pressed="false">
+                                                                <span class="bp-screen-reader-text">Like</span>
+                                                                <span class="like-count">Like</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="generic-button">
+                                                            <a id="acomment-comment-194622"
+                                                               class="button acomment-reply bp-primary-action"
+                                                               aria-expanded="true"
+                                                               href="?ac=194622/#ac-form-194622"
+                                                               role="button">
+                                                                <span class="bp-screen-reader-text">Comment</span>
+                                                                <span class="comment-count">Comment</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="activity-comments">
+
+                                                        <form action=""
+                                                              method="post" id="ac-form-194622"
+                                                              class="ac-form events-initiated root"
+                                                              style="display: none;">
+
+                                                            <div class="bp-ac-form-cotainer">
+
+                                                                <div class="ac-reply-avatar">
+                                                                    <img src="https://vuainnhanh.com/wp-content/uploads/2023/02/logo-chu-thap-do.png"
+                                                                         class="avatar user-2-avatar avatar-150 photo"
+                                                                         width="150" height="150"
+                                                                         alt="Profile photo of John">
+                                                                </div>
+
+                                                                <div class="ac-reply-content">
+                                                                    <div class="ac-textarea">
+                                                                        <label for="ac-input-194622"
+                                                                               class="bp-screen-reader-text">
+                                                                            Comment
+                                                                        </label>
+                                                                        <div contenteditable="true"
+                                                                             id="ac-input-194622"
+                                                                             class="ac-input bp-suggestions"
+                                                                             name="ac_input_194622"></div>
+
+                                                                        <div id="ac-reply-attachments-194622"
+                                                                             class="ac-reply-attachments">
+                                                                        </div>
+                                                                    </div>
+                                                                    <input type="hidden"
+                                                                           name="comment_form_id"
+                                                                           value="194622">
+
+                                                                    <input type="submit"
+                                                                           name="ac_form_submit"
+                                                                           value="Post"><input type="hidden"
+                                                                                               id="_wpnonce_new_activity_comment"
+                                                                                               name="_wpnonce_new_activity_comment"
+                                                                                               value="8f97e54998"><input type="hidden"
+                                                                                                                         name="_wp_http_referer"
+                                                                                                                         value="/online-communities/wp-admin/admin-ajax.php">&nbsp;
+                                                                    <button type="button"
+                                                                            class="ac-reply-cancel">
+                                                                        Cancel
+                                                                    </button>
+                                                                </div>
+
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="entry-footer">
+                            <span class="edit-link">
+                                <a class="post-edit-link"
+                                   href=";action=edit">
+                                    Edit
+                                    <span class="screen-reader-text">Activity Feed</span>
+                                </a>
+                            </span>
+                        </footer>
+                    </article>
+                </main>
+            </div>
+
+            <div id="secondary" class="widget-area sm-grid-1-1 sidebar-left" role="complementary"
+                 style="min-height: 851.833px;">
+                <div class="bb-sticky-sidebar">
+                    <aside id="boss-recent-posts-6" class="widget bb_widget_recent_posts">
+                        <h2 class="widget-title">Blog</h2>
+                        <ul class="bb-recent-posts">
+                            <li>
+                                <a href=""
+                                   title="Permalink to OMA completes renovation of Sotheby’s New York galleries"
+                                   class="entry-media entry-img">
+                                    <img width="624" height="416"
+                                         src=""
+                                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                         decoding="async" loading="lazy"
+                                         srcset=" 1000w"
+                                         sizes="(max-width: 624px) 100vw, 624px">
+                                </a>
+                                <div class="">
+                                    <h4>
+                                        <a href=""
+                                           class="bb-title">
+                                            OMA completes renovation of Sotheby’s
+                                            New…
+                                        </a>
+                                    </h4>
+                                    <span class="post-date">May 8, 2019</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="more-block">
+                            <a href=""
+                               class="count-more">See all<i class="bb-icon-angle-right"></i></a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+
+            <div id="secondary-right" class="widget-area sm-grid-1-1 sidebar-right" role="complementary">
+                <div class="bb-sticky-sidebar">
+
+                    <aside id="bp_xprofile_profile_completion_widget-2"
+                           class="widget widget_bp_profile_completion_widget widget buddypress">
+                        <h2 class="widget-title">Complete Your Profile</h2>
+                        <div class="profile_completion_wrap">
+                            <div class="pc_progress_wrap">
+                                <svg class="pc_progress_graph " width="146" height="73" viewBox="0 0 146 73"
+                                     fill="none">
+                                    <path d="M143 73C143 34.3401 111.66 3 73 3C34.3401 3 3 34.3401 3 73"
+                                          stroke="#F1F3F5" stroke-width="6"></path>
+                                    <path stroke-dasharray="73, 100" stroke-dashoffset="-27" class="pc_progress_rate"
+                                          d="M143 73C143 34.3401 111.66 3 73 3C34.3401 3 3 34.3401 3 73" stroke="#F1F3F5"
+                                          stroke-width="6" pathLength="100"></path>
+                                </svg>
+                                <div class="progress_text_wrap">
+                                    <h3>
+                                        <span class="progress_text_value">73</span><span class="progress_text_unit">%</span>
+                                    </h3>
+                                    <span class="progress_text_label">Complete</span>
+                                </div>
+                            </div>
+                            <div class="pc_detailed_progress_wrap">
+                                <ul class="pc_detailed_progress">
+                                    <li class="single_section_wrap
+            incomplete 					">
+                                        <span class="section_ico"><i class="bb-icon-l bb-icon-check"></i></span>
+                                        <span class="section_number">
+                                            1
+                                        </span>
+                                        <span class="section_name">
+                                            <a href=""
+                                               class="group_link">General Information</a>
+                                        </span>
+                                        <span class="progress">
+                                            <span class="completed_staus">
+                                                <span class="completed_steps">5</span>/<span class="total_steps">6</span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="single_section_wrap
+            incomplete 					">
+                                        <span class="section_ico"><i class="bb-icon-l bb-icon-check"></i></span>
+                                        <span class="section_number">
+                                            2
+                                        </span>
+                                        <span class="section_name">
+                                            <a href=""
+                                               class="group_link">Work Experience</a>
+                                        </span>
+                                        <span class="progress">
+                                            <span class="completed_staus">
+                                                <span class="completed_steps">1</span>/<span class="total_steps">3</span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li class="single_section_wrap
+            completed 					">
+                                        <span class="section_ico"><i class="bb-icon-l bb-icon-check"></i></span>
+                                        <span class="section_number">
+                                            3
+                                        </span>
+                                        <span class="section_name">
+                                            <a href="#"
+                                               class="group_link">Profile Photo</a>
+                                        </span>
+                                        <span class="progress">
+                                            <span class="completed_staus">
+                                                <span class="completed_steps">1</span>/<span class="total_steps">1</span>
+                                            </span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                    <aside id="bp_core_members_widget-4"
+                           class="widget widget_bp_core_members_widget buddypress widget">
+                        <h2 class="widget-title">Members</h2>
+                        <div class="item-options" id="members-list-options">
+                            <a href=""
+                               id="newest-members">Newest</a>
+                            <span class="bp-separator" role="separator">|</span>
+                            <a href=""
+                               id="recently-active-members" class="selected">Active</a>
+                        </div>
+                        <ul id="members-list" class="item-list" aria-live="polite" aria-relevant="all"
+                            aria-atomic="true">
+                            <li class="vcard">
+                                <div class="item-avatar">
+                                    <a href="" class="">
+                                        <img src="https://vuainnhanh.com/wp-content/uploads/2023/02/logo-chu-thap-do.png"
+                                             class="avatar user-2-avatar avatar-150 photo" width="150" height="150"
+                                             alt="Profile photo of Admin"> <span class="member-status online"
+                                                                                 data-bb-user-id="2" data-bb-user-presence="online"></span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <div class="item-title fn">
+                                        <a href="">John</a>
+                                    </div>
+                                    <div class="item-meta">
+                                        <span class="activity">a few seconds ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="vcard">
+                                <div class="item-avatar">
+                                    <a href=""
+                                       class="">
+                                        <img src="https://demos.buddyboss.com/online-communities/wp-content/sandbox185542-uploads/avatars/5/621e24af314df-bpthumb.png"
+                                             class="avatar user-5-avatar avatar-150 photo" width="150" height="150"
+                                             alt="Profile photo of Emily"> <span class="member-status offline"
+                                                                                 data-bb-user-id="5" data-bb-user-presence="offline"></span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <div class="item-title fn">
+                                        <a href="">Emily</a>
+                                    </div>
+                                    <div class="item-meta">
+                                        <span class="activity">a year ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="vcard">
+                                <div class="item-avatar">
+                                    <a href=""
+                                       class="">
+                                        <img src="https://demos.buddyboss.com/online-communities/wp-content/sandbox185542-uploads/avatars/19/621e226150d99-bpthumb.png"
+                                             class="avatar user-19-avatar avatar-150 photo" width="150" height="150"
+                                             alt="Profile photo of Joseph"> <span class="member-status offline"
+                                                                                  data-bb-user-id="19" data-bb-user-presence="offline"></span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <div class="item-title fn">
+                                        <a href="">Joseph</a>
+                                    </div>
+                                    <div class="item-meta">
+                                        <span class="activity">4 years ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <input type="hidden" id="_wpnonce-members" name="_wpnonce-members" value="2536a02fe3">
+                        <input type="hidden" name="members_widget_max" id="members_widget_max" value="6">
+                        <div class="more-block ">
+                            <a class="count-more" asp-area="" asp-controller="Home" asp-action="Member">
+                                See all<i class="bb-icon-l bb-icon-angle-right"></i>
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        let btn = document.querySelector("#bp-nouveau-activity-form-placeholder");
+        let sidebar = document.querySelector(".activity-update-form");
+        let cancel = document.querySelector(".bb-icon-times")
+        btn.onclick = function () {
+            sidebar.classList.toggle("active");
+        }
+        cancel.onclick = function () {
+            sidebar.classList.remove("active");
+        }
+    </script>
+
+}

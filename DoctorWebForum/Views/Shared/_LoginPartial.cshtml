@@ -1,0 +1,93 @@
+﻿@using DoctorWebForum.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+<ul class="navbar-nav" style="flex-direction: row;">
+    @if (SignInManager.IsSignedIn(User))
+        {
+        @*<li class="nav-item">
+            <img alt=''
+             src='https://demos.buddyboss.com/online-communities/wp-content/sandbox183188-uploads/avatars/2/621e2ce4392dd-bpthumb.png'
+             srcset='https://demos.buddyboss.com/online-communities/wp-content/sandbox183188-uploads/avatars/2/621e2ce4392dd-bpthumb.png 2x'
+             class='avatar avatar-100 photo' height='100' width='100' loading='lazy' />
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>*@
+
+        <div class="user-wrap user-wrap-container menu-item-has-children" style="display:flex; align-items:baseline; padding:10px 0 0 0">
+            <a class="user-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                <span class="user-name">@User.Identity?.Name</span><i class="bb-icon-l bb-icon-angle-down"></i>
+                   <img alt=""
+                 src="https://vuainnhanh.com/wp-content/uploads/2023/02/logo-chu-thap-do.png"
+                 class="avatar avatar-100 photo" height="100" width="100" loading="lazy">
+            </a>
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+            @*<div class="sub-menu">
+                <div class="wrapper">
+                    <ul class="sub-menu-inner">
+                        <li>
+                            <a class="user-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                                <img alt=''
+                                 src="https://vuainnhanh.com/wp-content/uploads/2023/02/logo-chu-thap-do.png"
+                                 class='avatar avatar-100 photo' height='100' width='100'
+                                 loading='lazy' /> <span>
+                                    <span class="user-name">John</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li id="wp-admin-bar-my-account-xprofile" class="menupop parent">
+                            <a class="ab-item" aria-haspopup="true"
+                           href="#">
+                                <i class="bb-icon-l bb-icon-user-avatar"></i>
+                                <span class="wp-admin-bar-arrow" aria-hidden="true"></span>Profile
+                            </a>
+                            <div class="ab-sub-wrapper wrapper">
+                                <ul id="wp-admin-bar-my-account-xprofile-default" class="ab-submenu">
+                                    <li id="wp-admin-bar-my-account-xprofile-public">
+                                        <a class="ab-item" href="#">View</a>
+                                    </li>
+                                    <li id=" wp-admin-bar-my-account-xprofile-edit">
+                                        <a class="ab-item" href="#">Edit</a>
+                                    </li>
+                                    <li id="wp-admin-bar-my-account-xprofile-change-avatar">
+                                        <a class="ab-item" href="#">
+                                            Profile
+                                            Photo
+                                        </a>
+                                    </li>
+                                    <li id="wp-admin-bar-my-account-xprofile-change-cover-image">
+                                        <a class="ab-item" href="#">
+                                            Cover
+                                            Photo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="logout-link">
+                            <a asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <i class="bb-icon-l bb-icon-sign-out"></i>
+                                Log Out
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>*@
+        </div>
+    }
+    else
+    {
+        <li class="nav-item" style="padding-right: 10px">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+    </ul>
