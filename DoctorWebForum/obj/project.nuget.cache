@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hedwl9U4Nc1DpkWOddfyry0l8lQRYV2QqZhNZP0EezC1WT/F5HIuiRTenrYY27X9ymjAiEPJwp1++OYXVtAcSA==",
+  "dgSpecHash": "Jy5zjmnXg/dxQl9ewx2thGIDUbV7Ap/gP9mn8e1+DaOpGLpJnP4XyKdfg/aiu8lcrXVOFCRokqK9jrLnISxpXw==",
   "success": true,
-  "projectFilePath": "D:\\HKI3-ACCP\\ASP.NET\\Mrs.Hanh\\DoctorWebForum\\DoctorWebForum\\DoctorWebForum.csproj",
+  "projectFilePath": "D:\\Study-web\\Famework\\DoctorWebForum\\DoctorWebForum\\DoctorWebForum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84392\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\84392\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

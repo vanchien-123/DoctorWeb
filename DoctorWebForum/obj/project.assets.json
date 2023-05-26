@@ -11060,11 +11060,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HKI3-ACCP\\ASP.NET\\Mrs.Hanh\\DoctorWebForum\\DoctorWebForum\\DoctorWebForum.csproj",
+      "projectUniqueName": "D:\\Study-web\\Famework\\DoctorWebForum\\DoctorWebForum\\DoctorWebForum.csproj",
       "projectName": "DoctorWebForum",
-      "projectPath": "D:\\HKI3-ACCP\\ASP.NET\\Mrs.Hanh\\DoctorWebForum\\DoctorWebForum\\DoctorWebForum.csproj",
+      "projectPath": "D:\\Study-web\\Famework\\DoctorWebForum\\DoctorWebForum\\DoctorWebForum.csproj",
       "packagesPath": "C:\\Users\\84392\\.nuget\\packages\\",
-      "outputPath": "D:\\HKI3-ACCP\\ASP.NET\\Mrs.Hanh\\DoctorWebForum\\DoctorWebForum\\obj\\",
+      "outputPath": "D:\\Study-web\\Famework\\DoctorWebForum\\DoctorWebForum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\84392\\AppData\\Roaming\\NuGet\\NuGet.Config",

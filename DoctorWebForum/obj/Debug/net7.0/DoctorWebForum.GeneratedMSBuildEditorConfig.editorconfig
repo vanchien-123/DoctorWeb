@@ -9,109 +9,149 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoctorWebForum
 build_property.RootNamespace = DoctorWebForum
-build_property.ProjectDir = D:\HKI3-ACCP\ASP.NET\Mrs.Hanh\DoctorWebForum\DoctorWebForum\
+build_property.ProjectDir = D:\Study-web\Famework\DoctorWebForum\DoctorWebForum\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HKI3-ACCP\ASP.NET\Mrs.Hanh\DoctorWebForum\DoctorWebForum
+build_property.MSBuildProjectDirectory = D:\Study-web\Famework\DoctorWebForum\DoctorWebForum
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Home/Index.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Feedbacks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Feedbacks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Feedbacks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Feedbacks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Feedbacks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Posts/Create.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHMxXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHMxXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHMxXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHMxXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHMxXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Posts/Delete.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Posts/Details.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Posts/Edit.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Posts/Index.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Shared/Error.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Shared/_LoginPartial.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Shared/_PostPatrial.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Shared/_PostPatrial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0UGF0cmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/User/Details.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/User/Member.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/User/Member.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNZW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/_ViewImports.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/_ViewStart.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HKI3-ACCP/ASP.NET/Mrs.Hanh/DoctorWebForum/DoctorWebForum/Views/Shared/_Layout.cshtml]
+[D:/Study-web/Famework/DoctorWebForum/DoctorWebForum/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sakdp7ugvg
